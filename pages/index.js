@@ -20,13 +20,13 @@ export default function Home() {
         </figure>
         <ul className="nav__links">
           <li>
-            <a href="/shop">Shop</a>
+            <Link href="/shop">Shop</Link>
           </li>
           <li>
-            <a href="/timer">Timer</a>
+            <Link href="/timer">Timer</Link>
           </li>
           <li className="login">
-            <a href="/login">Login</a>
+            <Link href="/login">Login</Link>
           </li>
         </ul>
       </nav>

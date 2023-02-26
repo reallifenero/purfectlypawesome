@@ -19,13 +19,13 @@ function timer() {
         </figure>
         <ul class="nav__links">
           <li>
-            <a href="/shop">Shop</a>
+            <Link href="/shop">Shop</Link>
           </li>
           <li>
-            <a href="/timer">Timer</a>
+            <Link href="/timer">Timer</Link>
           </li>
           <li class="login">
-            <a href="/login">Login</a>
+            <Link href="/login">Login</Link>
           </li>
         </ul>
       </nav>
