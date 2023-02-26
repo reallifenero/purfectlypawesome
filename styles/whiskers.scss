@@ -1,0 +1,64 @@
+.nav__dark {
+  background-color: var(--col-black);
+}
+
+.nav__logo {
+  color: var(--col-grey);
+}
+.nav__links li {
+  background-color: black;
+}
+
+.c__timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--col-black);
+  height: 90vh;
+}
+
+.c__timer__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--col-white);
+}
+
+.c__timer__stats h2 {
+  font-size: 1.3rem;
+}
+.timer__title {
+  color: var(--col-grey);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.c__timer__stats {
+}
+
+.c__timer__controls {
+  padding-block: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.c__timer__controls button {
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid var(--col-orange);
+  color: var(--col-orange);
+  transition: all ease-in-out 200ms;
+}
+.c__timer__controls button:hover {
+  border: 1px solid var(--col-white);
+  color: var(--col-white);
+  background-color: var(--col-grey);
+}
+
+.c__timer__time {
+  color: var(--col-orange);
+  font-size: 3rem;
+}

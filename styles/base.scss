@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
+body,
+head {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  --col-black: black;
+  --col-white: white;
+  --col-grey: #9c9c9c;
+  --col-dark-blue: #27232c;
+  --col-orange: #d14836;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+figure,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+a,
+button {
+  color: inherit;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  height: 5rem;
+  background-color: var(--col-grey);
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+  text-decoration: underline;
+  color: var(--col-black);
+}
+
+.nav__logo span img {
+  width: 2rem;
+}
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav__links li {
+  padding: 0.3rem 1rem;
+  color: var(--col-orange);
+  background-color: var(--col-grey);
+}
+.nav__links li a:hover {
+  text-decoration: underline;
+}
