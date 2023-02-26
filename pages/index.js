@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
         <div class="home__button">
-          <a href="/timer">Enter App</a>
+          <Link href="/timer">Enter App</Link>
         </div>
       </section>
     </div>
